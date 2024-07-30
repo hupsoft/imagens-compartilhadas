@@ -1,0 +1,144 @@
+console.log('ola pessoal');
+
+let numero1 = 3;
+let numero2 = 2; 
+
+let resultado = numero1 + numero2;
+
+console.log("o resultado é:" +resultado);
+
+var nome ='eduardo';
+var idade ='18 anos';
+
+console.log(nome,idade);
+
+function imprimir () {
+    var nome ='eduardo';
+    var idade ='18 anos';
+
+    console.log(nome,idade);
+    }
+
+function nomeFuncao ([arg1, arg2,...argn]) {
+    //script ;
+} ;
+
+function multiplica (x,y) {
+    var resultado = x * y ;
+    alert(resultado)
+} ; 
+
+const myfunction1 = (...args) => {
+   console.log(args);
+};
+myfunction1(4 * 6); // Output: [4, 6]
+
+
+const myFunction = (...args) => {
+    console.log(args);
+  };
+  myFunction(1, 2, 3); // Output: [1, 2, 3]  
+
+function multiplica(a, b ) {
+
+    return a * b 
+  }
+
+  var x = multiplica(4, 6);
+  console.log(x);
+
+function multiplica(a, b ) {
+
+    return a * b ; //retornar o produto de dois numeros
+  }
+
+  var x = multiplica(4, 6); //chama a funcao passando os argumentos
+  console.log(x);          //com valores e armazenada em x  
+
+  console.log(1 != 2) //true
+  console.log(1 != '1') //false 
+  console.log(0 != null) //true
+
+  console.log(2 < 3 || 3 > 2) //true
+  console.log(2 < 3 || 3 < 2) //true
+  console.log( 2 < 3 || 3 > 2 || 10 <= 100) //true
+
+function saudacao(nome) {
+    return `Olá, ${nome}!`;
+}
+console.log(saudacao('Maria'));
+              ///
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.Document.html</title>
+</head>
+<body style="background-color: rgb(96, 192, 176);">
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    <style>
+        .container{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container .box {
+            width: 200px;
+            height: 200px;
+            background: red
+        }
+    </style>
+</body>
+</html>
+                ///
+<style>
+        .imagem {
+          text-align: center;
+        }
+      </style>
+
+    <div class="imagem">
+      <img src="coc-cola.png.jpg" width="250px" height="400px">
+    </div>
+                ///
+<div class="container">💖</div>
+    <style>
+        body {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } 
+        .container {
+            font-size: 10rem;
+            animation: container .5s infinite alternate
+            linear;
+        }
+        @keyframes container {
+            from {
+              transform: scale(.7);
+            }
+            to {
+              transform: scale(1);
+            }
+        }
+        
+    </style>
+                  ////
+<button id="box" class="circle">6</button>
+
+<style>
+        button {
+            color: blueviolet;
+        }
+</style>        
+   

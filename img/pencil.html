@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.siteanimation.com.br</title>
+</head>
+<body>
+     <div class="box">🦉</div>
+     <style>
+        body {
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box{
+            font-size: 10rem;
+            animation: box .5s infinite alternate
+            linear;
+        } 
+        @keyframes box {
+            from {
+                transform: scale(.8);
+            }
+            to {
+                transform: scale(1);
+            }
+            
+        }
+     </style>
+</body>
+</html>
